@@ -1436,6 +1436,15 @@ input{
 }
 
 @media screen and (max-width:361px){
+    header nav ul li a{
+        font-size: 12px;
+    }
+    .footer-placa{
+        font-size: 12.5px;
+    }
+    .locales h3, .delivery h3{
+        font-size: 15px;
+    }
     .hamburguesas h2{
         font-size: 21px;
     }
