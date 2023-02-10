@@ -16,6 +16,7 @@ html{
 header{
     background-color: rgb(66, 66, 66);
     height: 100px;
+    font-family: 'Aldrich', sans-serif;
 }
 
 header nav ul li a{
@@ -26,12 +27,17 @@ header nav ul li a{
 
 header nav ul li a:hover{
     text-decoration: double overline;
+    color: beige;
 }
 
 header nav ul li{
     display: inline-block;
     margin-left: 90px;
-    margin-bottom: 30px;
+    margin-bottom: 7px;
+}
+
+header nav ul li:nth-child(1){
+    margin-left: 55px;
 }
 
 header nav ul{
@@ -49,11 +55,16 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    max-width: 1910px;
+    margin: 0 auto;
     /* flex-wrap: nowrap; */
 }
 
 main{
     padding-bottom: 30px;
+    max-width: 1930px;
+    margin: 0 auto;
+    font-family: 'Aldrich', sans-serif;
 }
 
 .hero{
@@ -69,7 +80,7 @@ main{
     justify-content: center;
 }
 
-.hero div{
+.hero{
     padding: 50px;
     color: white;
 }
@@ -94,6 +105,11 @@ main{
 
 .top-vendidas{
     margin: 30px;
+}
+
+.top-vendidas h2{
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .top-vendidas img{
@@ -123,6 +139,8 @@ main{
     margin: 10px;
     color: beige;
     letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .top-vendidas div a{
@@ -143,6 +161,8 @@ main{
 
 .concurso-index h2, .food-truck-index h2{
     margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .concurso-index p{
@@ -171,12 +191,15 @@ main{
 
 footer{
     background-color: rgb(66, 66, 66);
+    font-family: 'Aldrich', sans-serif;
 }
 
 .footer{
     color: beige;
     width: 88%;
     padding-bottom: 20px;
+    max-width: 1930px;
+    margin: 0 auto;
 }
 
 .footer-placa {
@@ -218,6 +241,7 @@ footer{
 
 .logo-footer p{
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .locales{ 
@@ -234,7 +258,11 @@ footer{
 
 .locales h3, .delivery h3{
     margin-bottom: 15px;
-    font-weight: normal;
+    font-size: 25px;
+}
+
+.locales p, .delivery p{
+    margin-bottom: 12px;
 }
 
 .delivery a{
@@ -259,15 +287,19 @@ footer{
 
 .hamburguesas h2{
     font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .hamburguesas p{
     font-size: 25px;
+    margin-bottom: 1px;
 }
 
 .hamburguesas-titular{
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
+    margin-bottom: 10px;
 }
 
 .hamburguesas div{
@@ -302,6 +334,7 @@ footer{
 
 div span h3{
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 /* extras-adicionales.html - EXTRAS & ADICIONALES*/
@@ -318,8 +351,10 @@ div span h3{
 
 .extras-adicionales-titulo {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 3px;
     margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
 } 
 
 .extras{
@@ -327,7 +362,8 @@ div span h3{
 }
 
 .extras h3{
-    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .extras p{
@@ -347,7 +383,7 @@ div span h3{
 .extras ul li{
     list-style: none;
     list-style-position: inside;
-    padding: 10px 30px;
+    padding: 5px 30px;
     background-image: url("../img/simbolo-mas-2.png");
     background-repeat: no-repeat;
     background-position: left center;
@@ -362,7 +398,8 @@ div span h3{
 
 .adicionales h3{
     padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .adicionales p{
@@ -382,7 +419,7 @@ div span h3{
 .adicionales ul li{
     list-style: none;
     list-style-position: inside;
-    padding: 10px 30px;
+    padding: 5px 30px;
     background-image: url("../img/simbolo-mas-2.png");
     background-repeat: no-repeat;
     background-position: left center;
@@ -426,6 +463,7 @@ div span h3{
     margin-bottom: 50px;
     margin-left: 15px;
     text-align: center;
+    font-weight: bold;
 }
 
 .galeria-grid{
@@ -482,11 +520,14 @@ div span h3{
     margin-top: 30px;
     margin-left: 15px;
     margin-bottom: 25px;
-    
+}
+
+.concurso h2{
+    font-weight: bold;
+    font-size: 25px;
 }
 
 .concurso p{
-    padding-top: 15px;
     padding-right: 15px;
     font-size: 20px;
 }
@@ -513,22 +554,28 @@ div span h3{
 .tretzel div{
     padding: 30px;
     align-self: center;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 
 .tretzel div h3{
     font-size: 40px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .food-truck{
-    padding-top: 50px;
+    margin-top: 50px;
     margin-left: 15px;
 }
 
+.food-truck h2{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
 .food-truck p{
-    padding-top: 15px;
     font-size: 20px;
 }
 
@@ -545,13 +592,14 @@ div span h3{
     margin-left: 15px;
 }
 
-.contacto p{
-    padding-bottom: 15px;
-    font-size: 20px;
+.contacto h2{
+    font-weight: bold;
+    font-size: 25px;
 }
 
-.contacto h2{
-    padding-bottom: 15px;
+.contacto p{
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .contacto form div{
@@ -560,7 +608,7 @@ div span h3{
 }
 
 .contacto form div h3{
-    padding-bottom: 15px;
+    font-size: 20px;
 }
 
 textarea{
@@ -586,6 +634,25 @@ input{
 }
 
 /* Medias Queries */
+
+@media screen and (min-width:1842px){
+    .mapa iframe{
+        width: 92%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .social-media img{
+        width: 80px;
+        height: 80px;
+    }
+    .whatsapp{
+        right: 25px;
+        bottom: 115px;
+    }
+    .instagram{
+        right: 25px;
+    }
+}
 
 @media screen and (max-width:1607px){
     .social-media img{
@@ -615,16 +682,19 @@ input{
         justify-content: center;
         align-items: center;
     }
-    header img{
-        margin-left: 40px;
-    }
     header nav ul{
         display: flex;
         justify-content: space-between;
         width: 90%;
     }
+    header nav img{
+        margin-left: 35px;
+    }
     header nav ul li{
-        margin-left: 10px;
+        margin-left: 0px;
+    }
+    header nav ul li:nth-child(1){
+        margin-left: 0px;
     }
     .hamburguesas h2{
         font-size: 37px;
@@ -699,6 +769,9 @@ input{
 @media screen and (max-width:1262px){
     .footer-placa p{
         font-size: 90%;
+    }
+    .locales{
+        padding-right: 10px;
     }
 }
 
@@ -787,18 +860,29 @@ input{
     }
 }
 
-
-
 @media screen and (max-width:1051px){
     header nav ul li a{
         font-size: 14px;
     }
     .footer-placa {
-        grid-template-rows: 170px 140px; 
+        grid-template-rows: 200px 180px; 
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "logo logo"
             "locales delivery";
+    }
+    .logo-footer p{
+        margin-bottom: 3px;
+    }
+    .locales{
+        padding-right: 0px;
+    }
+    .locales h3, .delivery h3{
+        margin-bottom: 8px;
+        font-size: 20px;
+    }
+    .locales p, .delivery p{ 
+        margin-bottom: 8px;
     }
     .extras-adicionales{
         width: 50%;
@@ -862,7 +946,7 @@ input{
         align-items: center;
     }
     header nav img{
-        margin-left: 0px;
+        margin-right: 35px;
         width: 150px;
         height: 75px;  
     }
@@ -872,8 +956,8 @@ input{
     }
     header nav ul li{
         text-align: center;
-        margin-left: 0px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
+        margin-right: 25px;
     }
     .hero{
         background-image: url('../img/hero-burger-2.jpeg');
@@ -965,6 +1049,10 @@ input{
 }
 
 @media screen and (max-width:782px){
+    .hero{
+        justify-content: center;
+        align-items: center;
+    }
     .main-extras-adicionales{
         flex-direction: column;
     }
@@ -1074,6 +1162,7 @@ input{
     }
     .tretzel div h3{
         font-size: 27px;
+        margin-bottom: 5px;
     }
     .concurso p, .food-truck p, .contacto p, .contacto form div{
         font-size: 14px;
@@ -1123,6 +1212,7 @@ input{
     }
     .tretzel div h3{
         font-size: 26px;
+        margin-bottom: 2px;
     }
     .concurso p, .food-truck p, .contacto p, .contacto form div{
         font-size: 14px;
@@ -1152,16 +1242,6 @@ input{
     .mapa iframe{
         width: 84%;
         height: 230px;
-    }
-    .tretzel{
-        width: 400px;
-        height: 200px;
-    }
-    .tretzel div{
-        font-size: 14px;
-    }
-    .tretzel div h3{
-        font-size: 23px;
     }
 }
 
@@ -1193,14 +1273,14 @@ input{
     }
     .tretzel div h3{
         font-size: 22px;
-        margin-bottom: 10px;
+        margin-bottom: 3px;
     }
 }
 
 
 @media screen and (max-width:477px){
     .footer-placa {
-        grid-template-rows: 170px 110px 120px; 
+        grid-template-rows: 190px 130px 130px; 
         grid-template-columns: 1fr;
         grid-template-areas:
             "logo"
@@ -1254,17 +1334,18 @@ input{
 @media screen and (max-width:433px){
     .tretzel{
         width: 340px;
-        height: 140px;
+        height: 160px;
     }
     .tretzel img{
         width: 140px;
-        height: 140px;
+        height: 160px;
     }
     .tretzel div{
         font-size: 11px;
     }
     .tretzel div h3{
-        font-size: 20px;
+        font-size: 17px;
+        margin-top: 5px;
     }
     .concurso p, .food-truck p, .contacto p, .contacto form div{
         font-size: 13px;
@@ -1288,9 +1369,6 @@ input{
     .mapa iframe{
         width: 82%;
         height: 210px;
-    }
-    .tretzel{
-        width: 310px;
     }
     .tretzel div h3{
         margin-bottom: 5px;
@@ -1323,12 +1401,12 @@ input{
         grid-auto-rows: 160px;
     }
     .tretzel{
-        width: 270px;
-        height: 100px;
+        width: 300px;
+        height: 160px;
     }
     .tretzel img{
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 160px;
     }
     .tretzel div{
         font-size: 10px;
