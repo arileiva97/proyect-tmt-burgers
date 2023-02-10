@@ -1,0 +1,1030 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Aldrich', sans-serif;
+  width: 100%; }
+
+header {
+  background-color: #424242;
+  height: 100px;
+  font-family: 'Aldrich', sans-serif; }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1910px;
+    margin: 0 auto; }
+    header nav div a img {
+      padding-left: 10px;
+      width: 200px;
+      height: 100px; }
+    header nav ul {
+      list-style-type: none;
+      width: 100%; }
+      header nav ul li {
+        display: inline-block;
+        margin-left: 90px;
+        margin-bottom: 7px; }
+        header nav ul li:nth-child(1) {
+          margin-left: 55px; }
+        header nav ul li a {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: beige; }
+          header nav ul li a:hover {
+            text-decoration: double overline;
+            color: beige; }
+
+main {
+  padding-bottom: 30px;
+  max-width: 1930px;
+  margin: 0 auto;
+  font-family: 'Aldrich', sans-serif; }
+  main .hero {
+    background-image: url("../img/hero-burger.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 50px;
+    color: white; }
+    main .hero div .hero-oracion {
+      margin: 20px;
+      font-size: 25px;
+      text-align: center;
+      color: beige;
+      text-shadow: 1px 4px 2.5px rgba(0, 0, 0, 0.76);
+      font-weight: bolder; }
+    main .hero div .hero-titular {
+      margin: 20px;
+      font-size: 40px;
+      text-align: center;
+      color: beige;
+      text-shadow: 1px 4px 2.5px rgba(0, 0, 0, 0.76); }
+  main .top-vendidas {
+    margin: 30px; }
+    main .top-vendidas h2 {
+      font-weight: bold;
+      font-size: 25px; }
+    main .top-vendidas div {
+      border: 1px solid black;
+      border-radius: 25% 10%;
+      background-color: #424242;
+      width: 330px;
+      margin: 30px;
+      padding: 15px;
+      text-align: center;
+      display: inline-block; }
+      main .top-vendidas div:hover {
+        transform: scale(1.05);
+        transition: 1.5s ease; }
+      main .top-vendidas div h3 {
+        margin: 10px;
+        color: beige;
+        letter-spacing: 1px;
+        font-size: 20px;
+        font-weight: bold; }
+      main .top-vendidas div img {
+        width: 280px;
+        height: 280px;
+        border-radius: 20px;
+        margin-bottom: 15px; }
+      main .top-vendidas div a {
+        text-decoration: none;
+        border: 2px solid beige;
+        border-radius: 3px;
+        padding: 5px;
+        color: beige; }
+  main .concurso-index {
+    margin: 30px 30px 40px 30px; }
+    main .concurso-index h2 {
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 25px; }
+    main .concurso-index p {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    main .concurso-index a {
+      font-family: 'Aldrich', sans-serif;
+      font-weight: bold;
+      font-size: 17px;
+      text-decoration: none;
+      background-color: #424242;
+      color: beige;
+      border-radius: 3px;
+      letter-spacing: 1px;
+      padding: 10px; }
+  main .food-truck-index {
+    margin: 30px; }
+    main .food-truck-index h2 {
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 25px; }
+    main .food-truck-index p {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    main .food-truck-index a {
+      font-family: 'Aldrich', sans-serif;
+      font-weight: bold;
+      font-size: 17px;
+      text-decoration: none;
+      background-color: #424242;
+      color: beige;
+      border-radius: 3px;
+      letter-spacing: 1px;
+      padding: 10px; }
+  main .hamburguesas {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main .hamburguesas .hamburguesas.titular {
+      text-align: center;
+      padding-top: 30px;
+      margin-bottom: 10px; }
+      main .hamburguesas .hamburguesas.titular h2 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 5px; }
+      main .hamburguesas .hamburguesas.titular p {
+        font-size: 25px;
+        margin-bottom: 1px; }
+    main .hamburguesas div {
+      background-color: #999090;
+      border-color: #999090;
+      border-radius: 50% 20% / 10% 40%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 900px;
+      height: 500px;
+      display: flex;
+      flex-direction: row; }
+      main .hamburguesas div:hover {
+        transform: scale(0.97);
+        transition: 2s ease; }
+      main .hamburguesas div img {
+        width: 500px;
+        height: 500px;
+        border-color: #999090;
+        border-radius: 10px; }
+      main .hamburguesas div span {
+        text-align: center;
+        font-size: 40px;
+        align-self: center; }
+        main .hamburguesas div span h3 {
+          margin-bottom: 15px;
+          font-weight: bold; }
+  main .main-extras-adicionales {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex; }
+    main .main-extras-adicionales .extras-adicionales {
+      width: 50%; }
+      main .main-extras-adicionales .extras-adicionales .extras-adicionales-titulo {
+        padding-top: 15px;
+        padding-bottom: 3px;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 25px; }
+      main .main-extras-adicionales .extras-adicionales .extras {
+        margin-left: 20px; }
+        main .main-extras-adicionales .extras-adicionales .extras h3 {
+          font-weight: bold;
+          font-size: 20px; }
+        main .main-extras-adicionales .extras-adicionales .extras p {
+          padding-bottom: 15px;
+          font-size: 20px; }
+        main .main-extras-adicionales .extras-adicionales .extras ul li {
+          list-style: none;
+          list-style-position: inside;
+          padding: 5px 30px;
+          background-image: url("../img/simbolo-mas-2.png");
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: 20px;
+          font-size: 20px; }
+          main .main-extras-adicionales .extras-adicionales .extras ul li::before {
+            content: "";
+            display: inline-block;
+            margin-right: 10px;
+            height: 10px;
+            width: 10px;
+            background-image: url("../img/simbolo-mas-2.png"); }
+      main .main-extras-adicionales .extras-adicionales .adicionales {
+        margin-top: 30px;
+        margin-left: 20px; }
+        main .main-extras-adicionales .extras-adicionales .adicionales h3 {
+          padding-top: 15px;
+          font-size: 20px;
+          font-weight: bold; }
+        main .main-extras-adicionales .extras-adicionales .adicionales p {
+          padding-bottom: 15px;
+          font-size: 20px; }
+        main .main-extras-adicionales .extras-adicionales .adicionales ul li {
+          list-style: none;
+          list-style-position: inside;
+          padding: 5px 30px;
+          background-image: url("../img/simbolo-mas-2.png");
+          background-repeat: no-repeat;
+          background-position: left center;
+          background-size: 20px;
+          font-size: 20px; }
+          main .main-extras-adicionales .extras-adicionales .adicionales ul li::before {
+            content: "";
+            display: inline-block;
+            margin-right: 10px;
+            height: 10px;
+            width: 10px;
+            background-image: url("../img/simbolo-mas-2.png"); }
+  main .extras-fotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 400px; }
+    main .extras-fotos .papas img {
+      width: 350px;
+      height: 350px;
+      margin-left: 100px;
+      margin-bottom: 30px;
+      border-radius: 10px; }
+    main .extras-fotos .we-are-open img {
+      width: 600px;
+      height: 200px;
+      border-radius: 10px; }
+  main .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px; }
+    main .galeria .galeria-titulo {
+      font-size: 40px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-left: 15px;
+      text-align: center;
+      font-weight: bold; }
+    main .galeria .galeria-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 330px);
+      grid-auto-rows: 300px;
+      gap: 40px; }
+      main .galeria .galeria-grid p {
+        align-self: center;
+        text-align: center;
+        font-size: 35px; }
+      main .galeria .galeria-grid img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: -13px 14px 13px -7px rgba(64, 64, 51, 0.77);
+        -webkit-box-shadow: -13px 14px 13px -7px rgba(64, 64, 51, 0.77);
+        -moz-box-shadow: -13px 14px 13px -7px rgba(64, 64, 51, 0.77); }
+      main .galeria .galeria-grid .galeria-01 {
+        grid-column: span 2;
+        grid-row: span 2; }
+      main .galeria .galeria-grid .galeria-07 {
+        grid-area: 1 / 3 / 2 / 5; }
+      main .galeria .galeria-grid .galeria-09 {
+        grid-area: 3 / 3 / 5 / 5; }
+      main .galeria .galeria-grid .galeria-10 {
+        grid-area: 5 / 1 / 7 / 3; }
+      main .galeria .galeria-grid .galeria-12 {
+        grid-area: 2 / 4 / 3 / 5; }
+  main .concurso-section {
+    display: flex;
+    flex-direction: column; }
+    main .concurso-section .concurso {
+      margin-top: 30px;
+      margin-left: 15px;
+      margin-bottom: 25px; }
+      main .concurso-section .concurso h2 {
+        font-weight: bold;
+        font-size: 25px; }
+      main .concurso-section .concurso p {
+        padding-right: 15px;
+        font-size: 20px; }
+    main .concurso-section .tretzel {
+      background-color: #999090;
+      border-radius: 50% 20% / 10% 40%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 900px;
+      height: 500px;
+      align-self: center;
+      display: flex;
+      flex-direction: row; }
+      main .concurso-section .tretzel div {
+        padding: 30px;
+        align-self: center;
+        font-size: 25px;
+        text-align: center; }
+        main .concurso-section .tretzel div h3 {
+          font-size: 40px;
+          margin-bottom: 15px;
+          font-weight: bold; }
+      main .concurso-section .tretzel img {
+        width: 500px;
+        height: 500px;
+        border-radius: 10px; }
+  main .food-truck {
+    margin-top: 50px;
+    margin-left: 15px; }
+    main .food-truck h2 {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 25px; }
+    main .food-truck p {
+      font-size: 20px; }
+      main .food-truck p #food-truck-link {
+        color: black;
+        border: 2px solid black;
+        border-radius: 3px;
+        text-decoration: none;
+        padding: 5px; }
+  main .contacto {
+    padding-top: 50px;
+    margin-left: 15px; }
+    main .contacto h2 {
+      font-weight: bold;
+      font-size: 25px; }
+    main .contacto p {
+      margin-bottom: 10px;
+      font-size: 20px; }
+    main .contacto form div {
+      padding-bottom: 15px;
+      font-size: 20px; }
+      main .contacto form div textarea {
+        width: 65%; }
+      main .contacto form div p input {
+        width: 300px;
+        margin-top: 3px;
+        height: 40px;
+        padding: 5px; }
+    main .contacto form .boton-enviar {
+      font-family: 'Aldrich', sans-serif;
+      font-weight: bold;
+      font-size: 17px;
+      background-color: #424242;
+      color: beige;
+      border: 1px solid #424242;
+      border-radius: 3px;
+      letter-spacing: 1px;
+      padding: 10px; }
+      main .contacto form .boton-enviar:focus {
+        color: beige;
+        background-color: #424242;
+        border: 1px solid #424242;
+        box-shadow: -200px -200px 5px -200px rgba(0, 0, 0, 0);
+        -webkit-box-shadow: -200px -200px 5px -200px rgba(0, 0, 0, 0);
+        -moz-box-shadow: -200px -200px 5px -200px rgba(0, 0, 0, 0); }
+
+footer {
+  background-color: #424242;
+  font-family: 'Aldrich', sans-serif; }
+  footer .footer {
+    color: beige;
+    width: 88%;
+    padding-bottom: 20px;
+    max-width: 1930px;
+    margin: 0 auto; }
+    footer .footer .social-media a img {
+      width: 60px;
+      height: 60px; }
+    footer .footer .social-media .whatsapp {
+      position: fixed;
+      right: 15px;
+      bottom: 95px; }
+    footer .footer .social-media .instagram {
+      position: fixed;
+      right: 15px;
+      bottom: 10px; }
+    footer .footer .footer-placa {
+      display: grid;
+      grid-template-rows: 100%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-areas: "locales logo delivery"; }
+      footer .footer .footer-placa .locales {
+        padding-top: 50px;
+        grid-area: locales;
+        text-align: center; }
+        footer .footer .footer-placa .locales h3 {
+          margin-bottom: 15px;
+          font-size: 25px; }
+        footer .footer .footer-placa .locales p {
+          margin-bottom: 12px; }
+      footer .footer .footer-placa .logo-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-area: logo; }
+        footer .footer .footer-placa .logo-footer img {
+          width: 300px;
+          height: 150px; }
+        footer .footer .footer-placa .logo-footer p {
+          text-align: center;
+          margin-bottom: 5px; }
+      footer .footer .footer-placa .delivery {
+        padding-top: 50px;
+        grid-area: delivery;
+        text-align: center; }
+        footer .footer .footer-placa .delivery h3 {
+          margin-bottom: 15px;
+          font-size: 25px; }
+        footer .footer .footer-placa .delivery a {
+          color: beige; }
+          footer .footer .footer-placa .delivery a p {
+            margin-bottom: 12px; }
+  footer .mapa .iframe {
+    width: 92%;
+    height: 300px;
+    border-radius: 10px; }
+
+@media screen and (min-width: 1842px) {
+  footer .footer .social-media a img {
+    width: 80px;
+    height: 80px; }
+  footer .footer .social-media .whatsapp {
+    right: 25px;
+    bottom: 115px; }
+  footer .footer .social-media .instagram {
+    right: 25px; }
+  footer .mapa .iframe {
+    width: 92%;
+    height: 300px;
+    border-radius: 10px; } }
+
+@media screen and (max-width: 1607px) {
+  footer .footer .social-media a img {
+    width: 45px;
+    height: 45px; }
+  footer .footer .social-media .whatsappp {
+    bottom: 75px; } }
+
+@media screen and (max-width: 1542px) {
+  main .galeria-grid {
+    grid-template-columns: repeat(4, 300px);
+    grid-auto-rows: 270px;
+    gap: 35px; } }
+
+@media screen and (max-width: 1452px) {
+  header {
+    height: 150px; }
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  header nav div a img {
+    margin-left: 35px; }
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 90%; }
+  header nav ul li {
+    margin-left: 0px; }
+  header nav ul li:nth-child(1) {
+    margin-left: 0px; }
+  main .hamburguesas .hamburguesas.titular h2 {
+    font-size: 37px; }
+  main .hamburguesas .hamburguesas.titular p {
+    font-size: 22px; }
+  main .hamburguesas div {
+    width: 800px;
+    height: 450px; }
+  main .hamburguesas div img {
+    width: 450px;
+    height: 450px; }
+  main .hamburguesas div span {
+    font-size: 35px; } }
+
+@media screen and (max-width: 1400px) {
+  main .galeria-grid {
+    grid-template-columns: repeat(4, 270px);
+    grid-auto-rows: 240px;
+    gap: 25px; } }
+
+@media screen and (max-width: 1349px) {
+  main .main-extras-adicionales .extras-adicionales {
+    width: 40%; } }
+
+@media screen and (max-width: 1294px) {
+  main .concurso-section .concurso p {
+    font-size: 18px; }
+  main .concurso-section .tretzel {
+    width: 800px;
+    height: 450px; }
+  main .concurso-section .tretzel div {
+    font-size: 25px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 38px; }
+  main .concurso-section .tretzel img {
+    width: 450px;
+    height: 450px; }
+  main .food-truck p, main .contacto p, main .contacto form div {
+    font-size: 18px; } }
+
+@media screen and (max-width: 1267px) {
+  main .galeria .galeria-titulo {
+    font-size: 35px; }
+  main .galeria-grid {
+    grid-template-columns: repeat(4, 240px);
+    grid-auto-rows: 200px;
+    gap: 20px; }
+  main .galeria-grid p {
+    font-size: 30px; } }
+
+@media screen and (max-width: 1262px) {
+  footer .footer .footer-placa .locales p, footer .footer .footer-placa .logo-footer p, footer .footer .footer-placa .delivery a p {
+    font-size: 90%; }
+  footer .footer .footer-placa .locales {
+    padding-right: 10px; } }
+
+@media screen and (max-width: 1238px) {
+  main .extras-fotos .papas img {
+    width: 300px;
+    height: 300px; }
+  main .extras-fotos .we-are-open img {
+    width: 500px;
+    height: 170px;
+    margin-right: 20px; } }
+
+@media screen and (max-width: 1188px) {
+  footer .footer .social-media a img {
+    width: 40px;
+    height: 40px; }
+  footer .footer .social-media .whatsapp {
+    bottom: 70px; } }
+
+@media screen and (max-width: 1171px) {
+  main .hamburguesas .hamburguesas.titular h2 {
+    font-size: 35px; }
+  main .hamburguesas .hamburguesas.titular p {
+    font-size: 20px; }
+  main .hamburguesas div {
+    width: 700px;
+    height: 350px; }
+  main .hamburguesas div img {
+    width: 350px;
+    height: 350px; }
+  main .hamburguesas div span {
+    font-size: 32px; }
+  main .concurso-section .tretzel {
+    width: 700px;
+    height: 400px; }
+  main .concurso-section .tretzel div {
+    font-size: 23px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 36px; }
+  main .concurso-section .tretzel img {
+    width: 400px;
+    height: 400px; } }
+
+@media screen and (max-width: 1110px) {
+  main .galeria .galeria-titulo {
+    font-size: 32px; }
+  main .galeria .galeria-grid {
+    grid-template-columns: repeat(4, 210px);
+    grid-auto-rows: 170px; }
+  main .galeria .galeria-grid p {
+    font-size: 27px; } }
+
+@media screen and (max-width: 1098px) {
+  main .main-extras-adicionales .extras-adicionales {
+    width: 50%; }
+  main .extras-fotos .papas img {
+    width: 250px;
+    height: 250px;
+    margin-left: 80px; }
+  main .extras-fotos .we-are-open img {
+    width: 400px;
+    height: 150px;
+    margin-right: 10px; } }
+
+@media screen and (max-width: 1051px) {
+  header nav ul li a {
+    font-size: 14px; }
+  main .main-extras-adicionales .extras-adicionales {
+    width: 50%; }
+  main .main-extras-adicionales .extras-adicionales .extras p, main .main-extras-adicionales .extras-adicionales .extras ul li, main .main-extras-adicionales .extras-adicionales .adicionales p, main .main-extras-adicionales .extras-adicionales .adicionales ul li {
+    font-size: 18px; }
+  footer .footer .footer-placa {
+    grid-template-rows: 200px 180px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logo logo" "locales delivery"; }
+  footer .footer .footer-placa .locales {
+    padding-right: 0px; }
+  footer .footer .footer-placa .locales h3 {
+    margin-bottom: 8px;
+    font-size: 20px; }
+  footer .footer .footer-placa .locales p {
+    margin-bottom: 8px; }
+  footer .footer .footer-placa .logo-footer p {
+    margin-bottom: 3px; }
+  footer .footer .footer-placa .delivery h3 {
+    margin-bottom: 8px;
+    font-size: 20px; }
+  footer .footer .footer-placa .delivery a p {
+    margin-bottom: 8px; } }
+
+@media screen and (max-width: 990px) {
+  main .galeria .galeria-grid {
+    grid-template-columns: repeat(3, 240px);
+    grid-auto-rows: 200px; }
+  main .galeria .galeria-grid p {
+    font-size: 30px; }
+  main .galeria .galeria-grid img {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 969px) {
+  main .top-vendidas {
+    margin: 20px; }
+  main .top-vendidas h2 {
+    font-size: 22px; }
+  main .top-vendidas div {
+    width: 280px;
+    margin: 20px; }
+  main .top-vendidas div h3 {
+    font-size: 18px; }
+  main .top-vendidas div img {
+    width: 230px;
+    height: 230px; }
+  main .concurso-index h2, main .food-truck-index h2 {
+    font-size: 22px; }
+  main .concurso-index p, main .food-truck-index p {
+    font-size: 17px; }
+  main .concurso-index a, main .food-truck-index a {
+    font-size: 15px; } }
+
+@media screen and (max-width: 908px) {
+  header {
+    height: 250px; }
+  header nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  header nav div a img {
+    margin-right: 35px;
+    width: 150px;
+    height: 75px; }
+  header nav ul {
+    display: flex;
+    flex-direction: column; }
+  header nav ul li {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 25px; }
+  header nav ul li a {
+    font-size: 13px; }
+  main .hero {
+    background-image: url("../img/hero-burger-2.jpeg");
+    height: calc(847px - 250px); }
+  main .hamburguesas .hamburguesas.titular h2 {
+    font-size: 30px; }
+  main .hamburguesas .hamburguesas.titular p {
+    font-size: 17px; }
+  main .hamburguesas div {
+    width: 600px;
+    height: 300px; }
+  main .hamburguesas div img {
+    width: 300px;
+    height: 300px; }
+  main .hamburguesas div span {
+    font-size: 29px; }
+  main .main-extras-adicionales .extras-adicionales .extras-adicionales-titulo {
+    font-size: 23px; }
+  main .main-extras-adicionales .extras-adicionales .extras p, main .main-extras-adicionales .extras-adicionales .extras ul li, main .main-extras-adicionales .extras-adicionales .adicionales p, main .main-extras-adicionales .extras-adicionales .adicionales ul li {
+    font-size: 16px; }
+  main .galeria .galeria-titulo {
+    font-size: 28px; }
+  main .galeria .galeria-grid {
+    grid-template-columns: repeat(2, 300px);
+    grid-auto-rows: 240px; }
+  main .concurso-section .concurso p, main .food-truck p, main .contacto p, main .contacto form div {
+    font-size: 16px; }
+  main .concurso-section .concurso h2, main .food-truck h2, main .contacto h2 {
+    font-size: 23px; }
+  main .concurso-section .tretzel {
+    width: 650px;
+    height: 350px; }
+  main .concurso-section .tretzel div {
+    font-size: 21px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 34px; }
+  main .concurso-section .tretzel img {
+    width: 350px;
+    height: 350px; }
+  .boton-enviar {
+    font-size: 16px; }
+  footer .mapa .iframe {
+    width: 87%;
+    height: 260px; } }
+
+@media screen and (max-width: 861px) {
+  main .hero div .hero-oracion {
+    font-size: 23px; }
+  main .hero div .hero-titular {
+    font-size: 33px; } }
+
+@media screen and (max-width: 808px) {
+  main .top-vendidas {
+    margin: 17px; }
+  main .top-vendidas div {
+    width: 250px;
+    margin: 20px; }
+  main .top-vendidas div h3 {
+    font-size: 18px; }
+  main .top-vendidas div img {
+    width: 200px;
+    height: 200px; } }
+
+@media screen and (max-width: 782px) {
+  main .hero {
+    justify-content: center;
+    align-items: center; }
+  main .main-extras-adicionales {
+    flex-direction: column; }
+  main .main-extras-adicionales .extras-adicionales {
+    width: 100%; }
+  main .extras-fotos {
+    align-self: center;
+    margin-top: 50px;
+    margin-bottom: 0px; }
+  main .extras-fotos .papas img {
+    margin-left: 80px; }
+  main .extras-fotos .we-are-open img {
+    margin-right: 0px; }
+  main .concurso-section .concurso h2, main .food-truck h2, main .contacto h2 {
+    font-size: 22px; }
+  main .concurso-section .concurso p, main .food-truck p, main .contacto p, main .contacto form div {
+    font-size: 15px; }
+  main .concurso-section .tretzel {
+    width: 600px;
+    height: 300px; }
+  main .concurso-section .tretzel div {
+    font-size: 19px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 30px; }
+  main .concurso-section .tretzel img {
+    width: 300px;
+    height: 300px; } }
+
+@media screen and (max-width: 747px) {
+  footer .footer .footer-placa {
+    font-size: 15px; } }
+
+@media screen and (max-width: 734px) {
+  main .galeria .galeria-titulo {
+    margin-bottom: 30px; }
+  main .galeria .galeria-grid {
+    grid-template-columns: 300px;
+    grid-auto-rows: 240px; } }
+
+@media screen and (max-width: 724px) {
+  main .hamburguesas .hamburguesas.titular h2 {
+    font-size: 28px; }
+  main .hamburguesas .hamburguesas.titular p {
+    font-size: 15px; }
+  main .hamburguesas div {
+    width: 550px;
+    height: 270px; }
+  main .hamburguesas div img {
+    width: 270px;
+    height: 270px; }
+  main .hamburguesas div span h3 {
+    font-size: 23px; } }
+
+@media screen and (max-width: 687px) {
+  main .hero div .hero-oracion {
+    font-size: 25px; }
+  main .hero div .hero-titular {
+    font-size: 40px; }
+  main .top-vendidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  main .top-vendidas h2, main .concurso-index h2, main .food-truck-index h2 {
+    font-size: 20px; }
+  main .concurso-index p, main .food-truck-index p {
+    font-size: 16px; }
+  main .concurso-index a, main .food-truck-index a {
+    font-size: 13px; }
+  main .concurso-section .concurso h2, main .food-truck h2, main .contacto h2 {
+    font-size: 21px; }
+  main .concurso-section .concurso p, main .food-truck p, main .contacto p, main .contacto form div {
+    font-size: 14px; }
+  main .concurso-section .tretzel {
+    width: 500px;
+    height: 250px; }
+  main .concurso-section .tretzel div {
+    font-size: 17px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 27px;
+    margin-bottom: 5px; }
+  main .concurso-section .tretzel img {
+    width: 250px;
+    height: 250px; }
+  main .contacto form .boton-enviar {
+    font-size: 14px; } }
+
+@media screen and (max-width: 651px) {
+  footer .footer .footer-placa {
+    font-size: 15px; } }
+
+@media screen and (max-width: 621px) {
+  main .hamburguesas .hamburguesas.titular h2 {
+    font-size: 26px; }
+  main .hamburguesas .hamburguesas.titular p {
+    font-size: 13px; }
+  main .hamburguesas div {
+    width: 450px;
+    height: 250px; }
+  main .hamburguesas div img {
+    width: 250px;
+    height: 250px; } }
+
+@media screen and (max-width: 606px) {
+  main .concurso-section .concurso h2, main .food-truck h2, main .contacto h2 {
+    font-size: 21px; }
+  main .concurso-section .concurso p, main .food-truck p, main .contacto p, main .contacto form div {
+    font-size: 14px; }
+  main .concurso-section .tretzel {
+    width: 450px;
+    height: 200px; }
+  main .concurso-section .tretzel div {
+    font-size: 16px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 26px;
+    margin-bottom: 2px; }
+  main .concurso-section .tretzel img {
+    width: 200px;
+    height: 200px; }
+  main .contacto form div textarea {
+    width: 80%; } }
+
+@media screen and (max-width: 589px) {
+  main .hero div .hero-oracion {
+    font-size: 20px; }
+  main .hero div .hero-titular {
+    font-size: 35px; }
+  footer .footer .footer-placa {
+    font-size: 13.5px; } }
+
+@media screen and (max-width: 549px) {
+  footer .mapa .iframe {
+    width: 84%;
+    height: 230px; } }
+
+@media screen and (max-width: 520px) {
+  main .hamburguesas div {
+    width: 400px;
+    height: 200px; }
+  main .hamburguesas div img {
+    width: 200px;
+    height: 200px; }
+  main .hamburguesas div span h3 {
+    font-size: 21px; } }
+
+@media screen and (max-width: 498px) {
+  main .concurso-section .tretzel {
+    width: 370px;
+    height: 170px; }
+  main .concurso-section .tretzel div {
+    font-size: 12px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 22px;
+    margin-bottom: 3px; }
+  main .concurso-section .tretzel img {
+    width: 170px;
+    height: 170px; } }
+
+@media screen and (max-width: 477px) {
+  main .hero div .hero-oracion {
+    font-size: 18px; }
+  main .hero div .hero-titular {
+    font-size: 33px; }
+  main .main-extras-adicionales .extras-adicionales .extras-adicionales-titulo {
+    font-size: 21px; }
+  main .main-extras-adicionales .extras-adicionales .extras p, main .main-extras-adicionales .extras-adicionales .extras ul li, main .main-extras-adicionales .extras-adicionales .adicionales p, main .main-extras-adicionales .extras-adicionales .adicionales ul li {
+    font-size: 14px; }
+  main .extras-fotos .papas img {
+    width: 200px;
+    height: 200px;
+    margin-left: 60px; }
+  main .extras-fotos .we-are-open img {
+    width: 320px;
+    height: 120px; }
+  footer .footer .footer-placa {
+    grid-template-rows: 190px 130px 130px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "logo" "locales"  "delivery"; } }
+
+@media screen and (max-width: 456px) {
+  main .hamburguesas div {
+    width: 350px;
+    height: 150px; }
+  main .hamburguesas div img {
+    width: 150px;
+    height: 150px; }
+  main .hamburguesas div span h3 {
+    font-size: 19px; } }
+
+@media screen and (max-width: 450px) {
+  main .galeria .galeria-grid {
+    grid-template-columns: 240px;
+    grid-auto-rows: 180px; } }
+
+@media screen and (max-width: 433px) {
+  main .concurso-section .concurso h2, main .food-truck h2, main .contacto h2 {
+    font-size: 20px; }
+  main .concurso-section .concurso p, main .food-truck p, main .contacto p, main .contacto form div {
+    font-size: 13px; }
+  main .concurso-section .tretzel {
+    width: 340px;
+    height: 160px; }
+  main .concurso-section .tretzel div {
+    font-size: 11px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 17px;
+    margin-top: 5px; }
+  main .concurso-section .tretzel img {
+    width: 140px;
+    height: 160px; }
+  main .contacto form .boton-enviar {
+    font-size: 13px; } }
+
+@media screen and (max-width: 400px) {
+  main .concurso-section .tretzel div h3 {
+    margin-bottom: 5px; }
+  main .contacto form div textarea, main .contacto form div p input {
+    width: 70%; }
+  footer .footer .social-media a img {
+    width: 35px;
+    height: 35px; }
+  footer .footer .social-media .whatsapp {
+    bottom: 60px; }
+  footer .mapa .iframe {
+    width: 82%;
+    height: 210px; } }
+
+@media screen and (max-width: 393px) {
+  main .hamburguesas div {
+    width: 300px;
+    height: 150px; }
+  main .hamburguesas div img {
+    width: 150px;
+    height: 150px; }
+  main .hamburguesas div span h3 {
+    font-size: 18px; } }
+
+@media screen and (max-width: 374px) {
+  main .galeria .galeria-grid {
+    grid-template-columns: 220px;
+    grid-auto-rows: 160px; }
+  main .concurso-section .concurso h2, main .food-truck h2, main .contacto h2 {
+    font-size: 19px; }
+  main .concurso-section .concurso p, main .food-truck p, main .contacto p, main .contacto form div {
+    font-size: 12px; }
+  main .concurso-section .tretzel {
+    width: 300px;
+    height: 160px; }
+  main .concurso-section .tretzel div {
+    font-size: 10px; }
+  main .concurso-section .tretzel div h3 {
+    font-size: 16px; }
+  main .concurso-section .tretzel img {
+    width: 140px;
+    height: 160px; }
+  main .contacto form .boton-enviar {
+    font-size: 12px; } }
+
+@media screen and (max-width: 361px) {
+  header nav ul li a {
+    font-size: 12px; }
+  main .hamburguesas .hamburguesas.titular h2 {
+    font-size: 21px; }
+  main .hamburguesas div {
+    width: 260px;
+    height: 150px; }
+  main .hamburguesas div img {
+    width: 150px;
+    height: 150px; }
+  main .hamburguesas div span {
+    font-size: 11px; }
+  main .hamburguesas div span h3 {
+    font-size: 17px; }
+  footer .footer .footer-placa {
+    font-size: 12.5px; }
+  footer .footer .footer-placa .locales h3, footer .footer .footer-placa .delivery h3 {
+    font-size: 15px; } }
+
+@media screen and (max-width: 368px) {
+  main .hero div {
+    padding: 15px; } }
