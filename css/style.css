@@ -628,9 +628,19 @@ input{
     font-size: 17px;
     background-color: rgb(66, 66, 66);
     color: beige;
+    border: 1px solid rgb(66, 66, 66);
     border-radius: 3px;
     letter-spacing: 1px;
     padding: 10px;
+}
+
+.boton-enviar:focus{
+    color: beige;
+    background-color: rgb(66, 66, 66);
+    border: 1px solid rgb(66, 66, 66);
+    box-shadow: -200px -200px 5px -200px rgba(0,0,0,0);
+    -webkit-box-shadow: -200px -200px 5px -200px rgba(0,0,0,0);
+    -moz-box-shadow: -200px -200px 5px -200px rgba(0,0,0,0);
 }
 
 /* Medias Queries */
