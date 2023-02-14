@@ -1,8 +1,8 @@
 footer{
-    background-color: rgb(66, 66, 66);
-    font-family: 'Aldrich', sans-serif;
+    background-color: $color-principal;
+    font-family: $font-family;
     .footer{
-        color: beige;
+        color: $color-font;
         width: 88%;
         padding-bottom: 20px;
         max-width: 1930px;
@@ -66,7 +66,7 @@ footer{
                     font-size: 25px;
                 }
                 a{
-                    color: beige;
+                    color: $color-font;
                     p{
                         margin-bottom: 12px;
                     }
