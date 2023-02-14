@@ -10,20 +10,10 @@
     footer .footer .social-media .instagram{
         right: 25px;
     }
-    footer .mapa .iframe{
+    footer .mapa iframe{
         width: 92%;
         height: 300px;
         border-radius: 10px;
-    }
-}
-
-@media screen and (max-width:1607px){
-    footer .footer .social-media a img{
-        width: 45px;
-        height: 45px;
-    }
-    footer .footer .social-media .whatsappp{
-        bottom: 75px
     }
 }
 
@@ -32,6 +22,14 @@
         grid-template-columns: repeat(4, 300px);
         grid-auto-rows: 270px;
         gap: 35px;
+    }
+}
+
+@media screen and (max-width:1542px){
+    main .galeria .galeria-grid{
+        grid-template-columns: repeat(4, 270px);
+        grid-auto-rows: 240px;
+        gap: 25px;
     }
 }
 
@@ -58,10 +56,10 @@
     header nav ul li:nth-child(1){
         margin-left: 0px;
     }
-    main .hamburguesas .hamburguesas.titular h2{
+    main .hamburguesas .hamburguesas-titular h2{
         font-size: 37px;
     }
-    main .hamburguesas .hamburguesas.titular p{
+    main .hamburguesas .hamburguesas-titular p{
         font-size: 22px;
     }
     main .hamburguesas div{
@@ -72,16 +70,8 @@
         width: 450px;
         height: 450px;
     }
-    main .hamburguesas div span{
+    main .hamburguesas div span h3{
         font-size: 35px;
-    }
-}
-
-@media screen and (max-width:1400px){
-    main .galeria-grid{
-        grid-template-columns: repeat(4, 270px);
-        grid-auto-rows: 240px;
-        gap: 25px;
     }
 }
 
@@ -118,12 +108,12 @@
     main .galeria .galeria-titulo{
         font-size: 35px;
     }
-    main .galeria-grid{
+    main .galeria .galeria-grid{
         grid-template-columns: repeat(4, 240px);
         grid-auto-rows: 200px;
         gap: 20px;
     }
-    main .galeria-grid p{
+    main .galeria .galeria-grid p{
         font-size: 30px;
     }
 }
@@ -160,10 +150,10 @@
 }
 
 @media screen and (max-width:1171px){
-    main .hamburguesas .hamburguesas.titular h2{
+    main .hamburguesas .hamburguesas-titular h2{
         font-size: 35px;
     }
-    main .hamburguesas .hamburguesas.titular p{
+    main .hamburguesas .hamburguesas-titular p{
         font-size: 20px;
     }
     main .hamburguesas div{
@@ -174,8 +164,8 @@
         width: 350px;
         height: 350px;
     }
-    main .hamburguesas div span{
-        font-size: 32px;
+    main .hamburguesas div span p{
+        font-size: 29px;
     }
     main .concurso-section .tretzel{
         width: 700px;
@@ -269,7 +259,7 @@
     main .galeria .galeria-grid p{
         font-size: 30px;
     }
-    main .galeria .galeria-grid img{
+    main .galeria .galeria-grid .galeria-01, main .galeria .galeria-grid .galeria-07, main .galeria .galeria-grid .galeria-09, main .galeria .galeria-grid .galeria-10, main .galeria .galeria-grid .galeria-12{
         grid-column: span 1;
         grid-row: span 1;
     }
@@ -334,10 +324,10 @@
         background-image: url('../img/hero-burger-2.jpeg');
         height:calc(847px - 250px);
     }
-    main .hamburguesas .hamburguesas.titular h2{
+    main .hamburguesas .hamburguesas-titular h2{
         font-size: 30px;
     }
-    main .hamburguesas .hamburguesas.titular p{
+    main .hamburguesas .hamburguesas-titular p{
         font-size: 17px;
     }
     main .hamburguesas div{
@@ -348,8 +338,8 @@
         width: 300px;
         height: 300px;
     }
-    main .hamburguesas div span{
-        font-size: 29px;
+    main .hamburguesas div span p{
+        font-size: 25px;
     }
     main .main-extras-adicionales .extras-adicionales .extras-adicionales-titulo{
         font-size: 23px;
@@ -387,7 +377,7 @@
     .boton-enviar{
         font-size: 16px;
     }
-    footer .mapa .iframe{
+    footer .mapa iframe{
         width: 87%;
         height: 260px;
     }
@@ -480,10 +470,10 @@
 }
 
 @media screen and (max-width:724px){
-    main .hamburguesas .hamburguesas.titular h2{
+    main .hamburguesas .hamburguesas-titular h2{
         font-size: 28px;
     }
-    main .hamburguesas .hamburguesas.titular p{
+    main .hamburguesas .hamburguesas-titular p{
         font-size: 15px;
     }
     main .hamburguesas div{
@@ -496,6 +486,9 @@
     }
     main .hamburguesas div span h3{
         font-size: 23px;
+    }
+    main .hamburguesas div span p{
+        font-size: 21px;
     }
 }
 
@@ -554,10 +547,10 @@
 }
 
 @media screen and (max-width:621px){
-    main .hamburguesas .hamburguesas.titular h2{
+    main .hamburguesas .hamburguesas-titular h2{
         font-size: 26px;
     }
-    main .hamburguesas .hamburguesas.titular p{
+    main .hamburguesas .hamburguesas-titular p{
         font-size: 13px;
     }
     main .hamburguesas div{
@@ -567,6 +560,9 @@
     main .hamburguesas div img{
         width: 250px;
         height: 250px;
+    }
+    main .hamburguesas div span p{
+        font-size: 19px;
     }
 }
 
@@ -610,7 +606,7 @@
 }
 
 @media screen and (max-width:549px){
-    footer .mapa .iframe{
+    footer .mapa iframe{
         width: 84%;
         height: 230px;
     }
@@ -627,6 +623,10 @@
     }
     main .hamburguesas div span h3{
         font-size: 21px;
+        margin-bottom: 10px;
+    }
+    main .hamburguesas div span p{
+        font-size: 17px;
     }
 }
 
@@ -691,6 +691,10 @@
     }
     main .hamburguesas div span h3{
         font-size: 19px;
+        margin-bottom: 6px;
+    }
+    main .hamburguesas div span p{
+        font-size: 15px;
     }
 }
 
@@ -742,7 +746,7 @@
     footer .footer .social-media .whatsapp{
         bottom: 60px;
     }
-    footer .mapa .iframe{
+    footer .mapa iframe{
         width: 82%;
         height: 210px;
     }
@@ -759,6 +763,9 @@
     }
     main .hamburguesas div span h3{
         font-size: 18px;
+    }
+    main .hamburguesas div span p{
+        font-size: 13px;
     }
 }
 
@@ -796,7 +803,7 @@
     header nav ul li a{
         font-size: 12px;
     }
-    main .hamburguesas .hamburguesas.titular h2{
+    main .hamburguesas .hamburguesas-titular h2{
         font-size: 21px;
     }
     main .hamburguesas div{
@@ -807,11 +814,11 @@
         width: 150px;
         height: 150px;
     }
-    main .hamburguesas div span{
-        font-size: 11px;
-    }
     main .hamburguesas div span h3{
         font-size: 17px;
+    }
+    main .hamburguesas div span p{
+        font-size: 11px;
     }
     footer .footer .footer-placa{
         font-size: 12.5px;
