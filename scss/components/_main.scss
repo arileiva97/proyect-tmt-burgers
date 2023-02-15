@@ -14,7 +14,7 @@ main{
             align-items: center;
             width: 100%;
             height: 16.66vh;
-            background-color: rgb(66, 66, 66);
+            background-color: $color-principal;
             a{
                 text-decoration: none;
                 img{
@@ -23,7 +23,7 @@ main{
                 p{
                     text-transform: uppercase;
                     font-size: 40px;
-                    color: beige;
+                    color: $color-font;
                     text-shadow: 1px 4px 2.5px rgba(0,0,0,0.76);
                     font-weight: bolder;
                 }
@@ -83,8 +83,8 @@ main{
     .top-vendidas{
         margin: 30px;
         h2{
-            font-weight: bold;
             font-size: 25px;
+            font-weight: bolder;
         }
         div{
             border: 1px solid black;
@@ -176,7 +176,7 @@ main{
             text-align: center;
             padding-top: 30px;
             margin-bottom: 10px;
-            h2{
+            h1{
                 font-size: 40px;
                 font-weight: bold;
                 margin-bottom: 5px;
@@ -235,7 +235,7 @@ main{
             }
             .extras{
                 margin-left: 20px;
-                h3{
+                h2{
                     font-weight: bold;
                     font-size: 20px;
                 }
@@ -255,7 +255,7 @@ main{
             .adicionales{
                 margin-top: 30px;
                 margin-left: 20px;
-                h3{
+                h2{
                     padding-top: 15px;
                     font-size: 20px;
                     font-weight: bold;

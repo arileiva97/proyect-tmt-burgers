@@ -56,7 +56,7 @@
     header nav ul li:nth-child(1){
         margin-left: 0px;
     }
-    main .hamburguesas .hamburguesas-titular h2{
+    main .hamburguesas .hamburguesas-titular h1{
         font-size: 37px;
     }
     main .hamburguesas .hamburguesas-titular p{
@@ -150,7 +150,7 @@
 }
 
 @media screen and (max-width:1171px){
-    main .hamburguesas .hamburguesas-titular h2{
+    main .hamburguesas .hamburguesas-titular h1{
         font-size: 35px;
     }
     main .hamburguesas .hamburguesas-titular p{
@@ -215,6 +215,9 @@
 @media screen and (max-width:1051px){
     header nav ul li a{
         font-size: 14px;
+    }
+    main .hamburguesas div span p{
+        font-size: 25px;
     }
     main .main-extras-adicionales .extras-adicionales{
         width: 50%;
@@ -322,10 +325,9 @@
     }
     main .hero{
         background-image: url('../img/hero-burger-2.jpeg');
-        background-size: cover;
         height:calc(847px - 250px);
     }
-    main .hamburguesas .hamburguesas-titular h2{
+    main .hamburguesas .hamburguesas-titular h1{
         font-size: 30px;
     }
     main .hamburguesas .hamburguesas-titular p{
@@ -338,9 +340,6 @@
     main .hamburguesas div img{
         width: 300px;
         height: 300px;
-    }
-    main .hamburguesas div span p{
-        font-size: 25px;
     }
     main .main-extras-adicionales .extras-adicionales .extras-adicionales-titulo{
         font-size: 23px;
@@ -474,7 +473,7 @@
 }
 
 @media screen and (max-width:724px){
-    main .hamburguesas .hamburguesas-titular h2{
+    main .hamburguesas .hamburguesas-titular h1{
         font-size: 28px;
     }
     main .hamburguesas .hamburguesas-titular p{
@@ -551,7 +550,7 @@
 }
 
 @media screen and (max-width:621px){
-    main .hamburguesas .hamburguesas-titular h2{
+    main .hamburguesas .hamburguesas-titular h1{
         font-size: 26px;
     }
     main .hamburguesas .hamburguesas-titular p{
@@ -571,6 +570,9 @@
 }
 
 @media screen and (max-width:606px){
+    main .front-page div a p{
+        font-size: 25px;
+    }
     main .concurso-section .concurso h2, main .food-truck h2, main .contacto h2{
         font-size: 21px;
     }
@@ -635,9 +637,6 @@
 }
 
 @media screen and (max-width:498px){
-    main .front-page div a p{
-        font-size: 25px;
-    }
     main .concurso-section .tretzel{
         width: 370px;
         height: 170px;
@@ -813,7 +812,7 @@
     header nav ul li a{
         font-size: 12px;
     }
-    main .hamburguesas .hamburguesas-titular h2{
+    main .hamburguesas .hamburguesas-titular h1{
         font-size: 21px;
     }
     main .hamburguesas div{
