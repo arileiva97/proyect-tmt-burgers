@@ -322,6 +322,7 @@
     }
     main .hero{
         background-image: url('../img/hero-burger-2.jpeg');
+        background-size: cover;
         height:calc(847px - 250px);
     }
     main .hamburguesas .hamburguesas-titular h2{
@@ -840,5 +841,11 @@
 @media screen and (max-width:368px){
     main .hero div{
         padding: 15px;
+    }
+}
+
+@media screen and (max-width:320px){
+    main .front-page div a p{
+        font-size: 15px;
     }
 }

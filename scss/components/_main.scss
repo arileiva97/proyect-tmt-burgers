@@ -435,6 +435,12 @@ main{
                         padding: 5px;
                     }
                 }
+                &:has(input:required) label:after{
+                    content: " *"
+                }
+                &:has(textarea:required) p:after{
+                    content: " *"
+                }
             }
             .boton-enviar{
                 font-family: $font-family;

@@ -393,6 +393,10 @@ main {
         margin-top: 3px;
         height: 40px;
         padding: 5px; }
+      main .contacto form div:has(input:required) label:after {
+        content: " *"; }
+      main .contacto form div:has(textarea:required) p:after {
+        content: " *"; }
     main .contacto form .boton-enviar {
       font-family: "Aldrich", sans-serif;
       font-weight: bold;
@@ -703,6 +707,7 @@ footer {
     font-size: 13px; }
   main .hero {
     background-image: url("../img/hero-burger-2.jpeg");
+    background-size: cover;
     height: calc(847px - 250px); }
   main .hamburguesas .hamburguesas-titular h2 {
     font-size: 30px; }
@@ -1064,3 +1069,7 @@ footer {
 @media screen and (max-width: 368px) {
   main .hero div {
     padding: 15px; } }
+
+@media screen and (max-width: 320px) {
+  main .front-page div a p {
+    font-size: 15px; } }
