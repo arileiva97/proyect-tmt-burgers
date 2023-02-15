@@ -3,6 +3,53 @@ main{
     max-width: 1930px;
     margin: 0 auto;
     font-family: $font-family;
+    .front-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 16.66vh;
+            background-color: rgb(66, 66, 66);
+            a{
+                text-decoration: none;
+                img{
+                    height: 150px;
+                }
+                p{
+                    text-transform: uppercase;
+                    font-size: 40px;
+                    color: beige;
+                    text-shadow: 1px 4px 2.5px rgba(0,0,0,0.76);
+                    font-weight: bolder;
+                }
+            }
+        }
+        .inicio-front{
+            background-image: url("../img/front-page/cheese-burger-front.jpeg");
+            @extend %bg-front;
+        }
+        .hamburguesas-front{
+            background-image: url("../img/front-page/oklahoma-front.jpg");
+            @extend %bg-front;
+        }
+        .extras-front{
+            background-image: url("../img/front-page/freshy-front.jpeg");
+            @extend %bg-front;
+        }
+        .galeria-front{
+            background-image: url("../img/front-page/ceo-front.jpeg");
+            @extend %bg-front;
+        }
+        .contacto-front{
+            background-image: url("../img/front-page/big-t-front.jpeg");
+            @extend %bg-front;
+        }
+    }
     .hero{
         background-image: url('../img/hero-burger.jpeg');
         background-size: cover;
@@ -197,22 +244,10 @@ main{
                     font-size: 20px;
                 }
                 ul{
-                    li{
-                        list-style: none;
-                        list-style-position: inside;
-                        padding: 5px 30px;
-                        background-image: url("../img/simbolo-mas-2.png");
-                        background-repeat: no-repeat;
-                        background-position: left center;
-                        background-size: 20px;
-                        font-size: 20px;
+                    li{ 
+                        @extend %punteo;
                         &::before{
-                            content:"";
-                            display: inline-block;
-                            margin-right: 10px;
-                            height: 10px;
-                            width: 10px;
-                            background-image: url("../img/simbolo-mas-2.png");
+                            @extend %punteo-2
                         }
                     }
                 }
@@ -231,21 +266,9 @@ main{
                 }
                 ul{
                     li{
-                        list-style: none;
-                        list-style-position: inside;
-                        padding: 5px 30px;
-                        background-image: url("../img/simbolo-mas-2.png");
-                        background-repeat: no-repeat;
-                        background-position: left center;
-                        background-size: 20px;
-                        font-size: 20px;
+                        @extend %punteo;
                         &::before{
-                            content:"";
-                            display: inline-block;
-                            margin-right: 10px;
-                            height: 10px;
-                            width: 10px;
-                            background-image: url("../img/simbolo-mas-2.png");
+                            @extend %punteo-2
                         }
                     }
                 }

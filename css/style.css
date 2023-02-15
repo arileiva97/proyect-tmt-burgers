@@ -1465,3 +1465,71 @@ input{
         padding: 15px;
     }
 }
+
+
+.front-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-page div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 16.66vh;
+    background-color: rgb(66, 66, 66);
+}
+
+.front-page div a{
+    text-decoration: none;
+}
+
+.front-page div a p{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: beige;
+    text-shadow: 1px 4px 2.5px rgba(0,0,0,0.76);
+    font-weight: bolder;
+}
+
+.front-page div img{
+    height: 150px;
+}
+
+.inicio-front{
+    background-image: url("../img/front-page/cheese-burger-front.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hamburguesas-front{
+    background-image: url("../img/front-page/oklahoma-front.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.extras-front{
+    background-image: url("../img/front-page/freshy-front.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.galeria-front{
+    background-image: url("../img/front-page/ceo-front.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto-front{
+    background-image: url("../img/front-page/big-t-front.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

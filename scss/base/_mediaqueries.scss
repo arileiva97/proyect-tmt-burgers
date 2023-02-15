@@ -393,6 +393,9 @@
 }
 
 @media screen and (max-width:808px){
+    main .front-page div a p{
+        font-size: 30px;
+    }
     main .top-vendidas{
         margin: 17px;
     }
@@ -631,6 +634,9 @@
 }
 
 @media screen and (max-width:498px){
+    main .front-page div a p{
+        font-size: 25px;
+    }
     main .concurso-section .tretzel{
         width: 370px;
         height: 170px;
@@ -733,6 +739,9 @@
 }
 
 @media screen and (max-width:400px){
+    main .front-page div a p{
+        font-size: 20px;
+    }
     main .concurso-section .tretzel div h3{
         margin-bottom: 5px;
     }
