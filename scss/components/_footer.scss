@@ -1,11 +1,11 @@
 footer{
-    background-color: $color-principal;
     font-family: $font-family;
+    background-color: $color-principal;
     .footer{
         color: $color-font;
         width: 88%;
-        padding-bottom: 20px;
         max-width: 1930px;
+        padding-bottom: 20px;
         margin: 0 auto;
         .social-media{
             a{
@@ -32,22 +32,22 @@ footer{
             grid-template-areas:
                 "locales logo delivery";
             .locales{
-                padding-top: 50px;
                 grid-area: locales;
                 text-align: center;
+                padding-top: 50px;
                 h3{
-                    margin-bottom: 15px;
                     font-size: 25px;
+                    margin-bottom: 15px;
                 }
                 p{
                     margin-bottom: 12px;
                 }
             }
             .logo-footer{
+                grid-area: logo;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                grid-area: logo;
                 img{
                     width: 300px;
                     height: 150px;
@@ -58,12 +58,12 @@ footer{
                 }
             }
             .delivery{
-                padding-top: 50px;
                 grid-area: delivery;
                 text-align: center;
+                padding-top: 50px;
                 h3{
-                    margin-bottom: 15px;
                     font-size: 25px;
+                    margin-bottom: 15px;
                 }
                 a{
                     color: $color-font;

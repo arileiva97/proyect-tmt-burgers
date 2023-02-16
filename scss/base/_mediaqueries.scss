@@ -46,9 +46,9 @@
         margin-left: 35px;
     }
     header nav ul{
+        width: 90%;
         display: flex;
         justify-content: space-between;
-        width: 90%;
     }
     header nav ul li{
         margin-left: 0px;
@@ -235,22 +235,15 @@
     footer .footer .footer-placa .locales{
         padding-right: 0px;
     }
-    footer .footer .footer-placa .locales h3{
-        margin-bottom: 8px;
+    footer .footer .footer-placa .locales h3, footer .footer .footer-placa .delivery h3{
         font-size: 20px;
+        margin-bottom: 8px;
     }
-    footer .footer .footer-placa .locales p{
+    footer .footer .footer-placa .locales p, footer .footer .footer-placa .delivery a p{
         margin-bottom: 8px
     }
     footer .footer .footer-placa .logo-footer p{
         margin-bottom: 3px;
-    }
-    footer .footer .footer-placa .delivery h3{
-        margin-bottom: 8px;
-        font-size: 20px;
-    }
-    footer .footer .footer-placa .delivery a p{ 
-        margin-bottom: 8px;
     }
 }
 
@@ -307,9 +300,9 @@
         align-items: center;
     }
     header nav div a img{
-        margin-right: 35px;
         width: 150px;
         height: 75px;  
+        margin-right: 35px;
     }
     header nav ul{
         display: flex;
