@@ -1,6 +1,5 @@
 main{
     font-family: $font-family;
-    padding-bottom: 30px;
     max-width: 1930px;
     margin: 0 auto;
     .front-page{
@@ -10,8 +9,7 @@ main{
         align-items: center;
         div{
             background-color: $color-principal;
-            width: 100%;
-            height: 16.66vh;
+            @include wh (100%, 16.66vh);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -54,7 +52,7 @@ main{
     .hero{
         height: 700px;
         padding: 50px;
-        background-image: url('../img/hero-burger.jpeg');
+        background-image: url('../img/hero-burger.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -108,8 +106,7 @@ main{
                 letter-spacing: 1px;
             }
             img{
-                width: 280px;
-                height: 280px;
+                @include wh (280px, 280px);
                 margin-bottom: 15px;
                 border-radius: 20px;
             }
@@ -147,6 +144,7 @@ main{
     }
     .food-truck-index{
         margin: 30px;
+        padding-bottom: 30px;
         h2{
             font-size: 25px;
             font-weight: bold;
@@ -170,6 +168,7 @@ main{
     }
     .hamburguesas{
         padding-top: 20px;
+        padding-bottom: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -193,8 +192,7 @@ main{
             border-radius: 50% 20% / 10% 40%;
             margin-top: 15px;
             margin-bottom: 15px;
-            width: 900px;
-            height: 500px;
+            @include wh (900px, 500px);
             display: flex;
             flex-direction: row;
             &:hover{
@@ -202,8 +200,7 @@ main{
                 transition: 2s ease;
             }
             img{
-                width: 500px;
-                height: 500px;
+                @include wh (500px, 500px);
                 border-color: $color-hamburguesas;
                 border-radius: 10px;
             }
@@ -217,6 +214,7 @@ main{
                 }
                 p{
                     font-size: 32px;
+                    padding: 0px 5px;
                 }
             }
         }
@@ -224,6 +222,7 @@ main{
     .main-extras-adicionales{
         margin-top: 10px;
         margin-bottom: 30px;
+        padding-bottom: 30px;
         display: flex;
         .extras-adicionales{
             width: 50%;
@@ -283,8 +282,7 @@ main{
         justify-content: center;
         .papas{
             img{
-                width: 350px;
-                height: 350px;
+                @include wh (350px, 350px);
                 border-radius: 10px;
                 margin-left: 100px;
                 margin-bottom: 30px;
@@ -292,8 +290,7 @@ main{
         }
         .we-are-open{
             img{
-                width: 600px;
-                height: 200px;
+                @include wh (600px, 200px);
                 border-radius: 10px;
             }
         }
@@ -303,6 +300,7 @@ main{
         flex-direction: column;
         align-items: center;
         margin-bottom: 40px;
+        padding-bottom: 30px;
         .galeria-titulo{
             font-size: 40px;
             font-weight: bold;
@@ -322,8 +320,7 @@ main{
                 align-self: center;
             }
             img{
-                width: 100%;
-                height: 100%;
+                @include wh (100%, 100%);
                 object-fit: cover;
                 box-shadow: -13px 14px 13px -7px rgba(64,64,51,0.77);
                 -webkit-box-shadow: -13px 14px 13px -7px rgba(64,64,51,0.77);
@@ -368,8 +365,7 @@ main{
             border-radius: 50% 20% / 10% 40%;
             margin-top: 15px;
             margin-bottom: 15px;
-            width: 900px;
-            height: 500px;
+            @include wh (900px, 500px);
             display: flex;
             flex-direction: row;
             align-self: center;
@@ -383,10 +379,12 @@ main{
                     font-weight: bold;
                     margin-bottom: 15px;
                 }
+                p{
+                    padding: 0px 2px;
+                }
             }
             img{
-                width: 500px;
-                height: 500px;
+                @include wh (500px, 500px);
                 border-radius: 10px;
             }
         }
@@ -401,6 +399,7 @@ main{
         }
         p{
             font-size: 20px;
+            padding-right: 15px;
             #food-truck-link{
                 color: black;
                 border: 2px solid black;
@@ -412,6 +411,7 @@ main{
     }
     .contacto{
         padding-top: 50px;
+        padding-bottom: 30px;
         margin-left: 15px;
         h2{
             font-size: 25px;
@@ -430,8 +430,7 @@ main{
                 }
                 p{
                     input{
-                        width: 300px;
-                        height: 40px;
+                        @include wh (300px, 40px);
                         margin-top: 3px;
                         padding: 5px;
                     }
@@ -448,6 +447,7 @@ main{
                 font-size: 17px;
                 font-weight: bold;
                 color: $color-font;
+                width: 300px;
                 background-color: $color-principal;
                 border: 1px solid $color-principal;
                 border-radius: 3px;

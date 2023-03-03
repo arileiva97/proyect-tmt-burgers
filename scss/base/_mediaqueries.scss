@@ -1,7 +1,6 @@
 @media screen and (min-width:1842px){
     footer .footer .social-media a img{
-        width: 80px;
-        height: 80px;
+        @include wh (80px, 80px);
     }
     footer .footer .social-media .whatsapp{
         right: 25px;
@@ -11,8 +10,7 @@
         right: 25px;
     }
     footer .mapa iframe{
-        width: 92%;
-        height: 300px;
+        @include wh (92%, 300px); 
         border-radius: 10px;
     }
 }
@@ -63,12 +61,10 @@
         font-size: 22px;
     }
     main .hamburguesas div{
-        width: 800px;
-        height: 450px;
+        @include wh (800px, 450px);
     }    
     main .hamburguesas div img{
-        width: 450px;
-        height: 450px;
+        @include wh (450px, 450px);
     }
     main .hamburguesas div span h3{
         font-size: 35px;
@@ -86,8 +82,7 @@
         font-size: 18px;
     }
     main .concurso-section .tretzel{
-        width: 800px;
-        height: 450px;
+        @include wh (800px, 450px);
     }
     main .concurso-section .tretzel div{
         font-size: 25px;
@@ -96,8 +91,7 @@
         font-size: 38px;
     }
     main .concurso-section .tretzel img{
-        width: 450px;
-        height: 450px;
+        @include wh (450px, 450px);
     }
     main .food-truck p, main .contacto p, main .contacto form div{
         font-size: 18px;
@@ -129,20 +123,17 @@
 
 @media screen and (max-width:1238px){
     main .extras-fotos .papas img{
-        width: 300px;
-        height: 300px;
+        @include wh (300px, 300px);
     }
     main .extras-fotos .we-are-open img{
-        width: 500px;
-        height: 170px;
+        @include wh (500px, 170px);
         margin-right: 20px;
     }
 } 
 
 @media screen and (max-width:1188px){
     footer .footer .social-media a img{
-        width: 40px;
-        height: 40px;
+        @include wh (40px, 40px);
     }
     footer .footer .social-media .whatsapp{
         bottom: 70px;
@@ -157,19 +148,16 @@
         font-size: 20px;
     }
     main .hamburguesas div{
-        width: 700px;
-        height: 350px;
+        @include wh (700px, 350px);
     }    
     main .hamburguesas div img{
-        width: 350px;
-        height: 350px;
+        @include wh (350px, 350px);
     }
     main .hamburguesas div span p{
         font-size: 29px;
     }
     main .concurso-section .tretzel{
-        width: 700px;
-        height: 400px;
+        @include wh (700px, 400px);
     }
     main .concurso-section .tretzel div{
         font-size: 23px;
@@ -178,8 +166,7 @@
         font-size: 36px;
     }
     main .concurso-section .tretzel img{
-        width: 400px;
-        height: 400px;
+        @include wh (400px, 400px);
     }
 }
 
@@ -201,13 +188,11 @@
         width: 50%;
     }
     main .extras-fotos .papas img{
-        width: 250px;
-        height: 250px;
+        @include wh (250px, 250px);
         margin-left: 80px;
     }
     main .extras-fotos .we-are-open img{
-        width: 400px;
-        height: 150px;
+        @include wh (400px, 150px);
         margin-right: 10px;
     }
 }
@@ -276,8 +261,7 @@
         font-size: 18px;
     }
     main .top-vendidas div img{
-        width: 230px;
-        height: 230px;
+        @include wh (230px, 230px);
     }
     main .concurso-index h2, main .food-truck-index h2{
         font-size: 22px;
@@ -300,8 +284,7 @@
         align-items: center;
     }
     header nav div a img{
-        width: 150px;
-        height: 75px;  
+        @include wh (150px, 75px); 
         margin-right: 35px;
     }
     header nav ul{
@@ -317,8 +300,7 @@
         font-size: 13px;
     }
     main .hero{
-        background-image: url('../img/hero-burger-2.jpeg');
-        height:calc(847px - 250px);
+        background-image: url('../img/kid-size.jpeg');
     }
     main .hamburguesas .hamburguesas-titular h1{
         font-size: 30px;
@@ -327,12 +309,10 @@
         font-size: 17px;
     }
     main .hamburguesas div{
-        width: 600px;
-        height: 300px;
+        @include wh (600px, 300px);
     }    
     main .hamburguesas div img{
-        width: 300px;
-        height: 300px;
+        @include wh (300px, 300px);
     }
     main .main-extras-adicionales .extras-adicionales .extras-adicionales-titulo{
         font-size: 23px;
@@ -354,8 +334,7 @@
         font-size: 23px;
     }
     main .concurso-section .tretzel{
-        width: 650px;
-        height: 350px;
+        @include wh (650px, 350px);
     }
     main .concurso-section .tretzel div{
         font-size: 21px;
@@ -364,15 +343,13 @@
         font-size: 34px;
     }
     main .concurso-section .tretzel img{
-        width: 350px;
-        height: 350px;
+        @include wh (350px, 350px);
     }
     .boton-enviar{
         font-size: 16px;
     }
     footer .mapa iframe{
-        width: 87%;
-        height: 260px;
+        @include wh (87%, 260px);
     }
 }
 
@@ -400,8 +377,7 @@
         font-size: 18px;
     }
     main .top-vendidas div img{
-        width: 200px;
-        height: 200px;
+        @include wh (200px, 200px);
     }
 }
 
@@ -434,8 +410,7 @@
         font-size: 15px;
     }
     main .concurso-section .tretzel{
-        width: 600px;
-        height: 300px;
+        @include wh (600px, 300px);
     }
     main .concurso-section .tretzel div{
         font-size: 19px;
@@ -444,8 +419,7 @@
         font-size: 30px;
     }
     main .concurso-section .tretzel img{
-        width: 300px;
-        height: 300px;
+        @include wh (300px, 300px);
     }
 }
 
@@ -473,12 +447,10 @@
         font-size: 15px;
     }
     main .hamburguesas div{
-        width: 550px;
-        height: 270px;
+        @include wh (550px, 270px);
     }    
     main .hamburguesas div img{
-        width: 270px;
-        height: 270px;
+        @include wh (270px, 270px);
     }
     main .hamburguesas div span h3{
         font-size: 23px;
@@ -516,8 +488,7 @@
         font-size: 14px;
     }
     main .concurso-section .tretzel{
-        width: 500px;
-        height: 250px;
+        @include wh (500px, 250px);
     }
     main .concurso-section .tretzel div{
         font-size: 17px;
@@ -527,8 +498,7 @@
         margin-bottom: 5px;
     }
     main .concurso-section .tretzel img{
-        width: 250px;
-        height: 250px;
+        @include wh (250px, 250px);
     }
     
     main .contacto form .boton-enviar{
@@ -550,12 +520,10 @@
         font-size: 13px;
     }
     main .hamburguesas div{
-        width: 450px;
-        height: 250px;
+        @include wh (450px, 250px);
     }    
     main .hamburguesas div img{
-        width: 250px;
-        height: 250px;
+        @include wh (250px, 250px);
     }
     main .hamburguesas div span p{
         font-size: 19px;
@@ -573,8 +541,7 @@
         font-size: 14px;
     }
     main .concurso-section .tretzel{
-        width: 450px;
-        height: 200px;
+        @include wh (450px, 220px);
     }
     main .concurso-section .tretzel div{
         font-size: 16px;
@@ -584,8 +551,7 @@
         margin-bottom: 2px;
     }
     main .concurso-section .tretzel img{
-        width: 200px;
-        height: 200px;
+        @include wh (220px, 220px);
     }
     main .contacto form div textarea{
         width: 80%;
@@ -606,19 +572,16 @@
 
 @media screen and (max-width:549px){
     footer .mapa iframe{
-        width: 84%;
-        height: 230px;
+        @include wh (84%, 230px);
     }
 }
 
 @media screen and (max-width:520px){
     main .hamburguesas div{
-        width: 400px;
-        height: 200px;
+        @include wh (400px, 200px);
     }    
     main .hamburguesas div img{
-        width: 200px;
-        height: 200px;
+        @include wh (200px, 200px);
     }
     main .hamburguesas div span h3{
         font-size: 21px;
@@ -631,8 +594,7 @@
 
 @media screen and (max-width:498px){
     main .concurso-section .tretzel{
-        width: 370px;
-        height: 170px;
+        @include wh (370px, 170px);
     }
     main .concurso-section .tretzel div{
         font-size: 12px;
@@ -642,8 +604,7 @@
         margin-bottom: 3px;
     }
     main .concurso-section .tretzel img{
-        width: 170px;
-        height: 170px;
+        @include wh (170px, 170px);
     }
 }
 
@@ -661,13 +622,11 @@
         font-size: 14px;
     }
     main .extras-fotos .papas img{
-        width: 200px;
-        height: 200px;
+        @include wh (200px, 200px);
         margin-left: 60px;
     }
     main .extras-fotos .we-are-open img{
-        width: 320px;
-        height: 120px;
+        @include wh (320px, 120px);
     }
     footer .footer .footer-placa {
         grid-template-rows: 190px 130px 130px; 
@@ -681,12 +640,10 @@
 
 @media screen and (max-width:456px){
     main .hamburguesas div{
-        width: 350px;
-        height: 150px;
+        @include wh (350px, 150px);
     }    
     main .hamburguesas div img{
-        width: 150px;
-        height: 150px;
+        @include wh (150px, 150px);
     }
     main .hamburguesas div span h3{
         font-size: 19px;
@@ -712,8 +669,7 @@
         font-size: 13px;
     }
     main .concurso-section .tretzel{
-        width: 340px;
-        height: 160px;
+        @include wh (340px, 160px);
     }
     main .concurso-section .tretzel div{
         font-size: 11px;
@@ -723,8 +679,7 @@
         margin-top: 5px;
     }
     main .concurso-section .tretzel img{
-        width: 140px;
-        height: 160px;
+        @include wh (140px, 160px);
     }
     main .contacto form .boton-enviar{
         font-size: 13px;
@@ -738,30 +693,26 @@
     main .concurso-section .tretzel div h3{
         margin-bottom: 5px;
     }
-    main .contacto form div textarea, main .contacto form div p input{
+    main .contacto form div textarea, main .contacto form div p input, main .contacto form .boton-enviar{
         width: 70%;
     }
     footer .footer .social-media a img{
-        width: 35px;
-        height: 35px;
+        @include wh (35px, 35px);
     }
     footer .footer .social-media .whatsapp{
         bottom: 60px;
     }
     footer .mapa iframe{
-        width: 82%;
-        height: 210px;
+        @include wh (82%, 210px);
     }
 }
 
 @media screen and (max-width:393px){
     main .hamburguesas div{
-        width: 300px;
-        height: 150px;
+        @include wh (300px, 150px);
     }    
     main .hamburguesas div img{
-        width: 150px;
-        height: 150px;
+        @include wh (150px, 150px);
     }
     main .hamburguesas div span h3{
         font-size: 18px;
@@ -783,8 +734,7 @@
         font-size: 12px;
     }
     main .concurso-section .tretzel{
-        width: 300px;
-        height: 160px;
+        @include wh (300px, 170px);
     }
     main .concurso-section .tretzel div{
         font-size: 10px;
@@ -793,8 +743,7 @@
         font-size: 16px;
     }
     main .concurso-section .tretzel img{
-        width: 140px;
-        height: 160px;
+        @include wh (140px, 170px);
     }
     main .contacto form .boton-enviar{
         font-size: 12px;
@@ -809,12 +758,10 @@
         font-size: 21px;
     }
     main .hamburguesas div{
-        width: 260px;
-        height: 150px;
+        @include wh (260px, 150px);
     }    
     main .hamburguesas div img{
-        width: 150px;
-        height: 150px;
+        @include wh (150px, 150px);
     }
     main .hamburguesas div span h3{
         font-size: 17px;

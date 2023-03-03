@@ -28,3 +28,8 @@ $font-family: 'Aldrich', sans-serif;
     background-image: url("../img/simbolo-mas-2.png");
     display: inline-block;
 }
+
+@mixin wh ($width, $height){
+    width: $width;
+    height: $height;
+}
